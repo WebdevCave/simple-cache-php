@@ -1,0 +1,25 @@
+{
+  "name": "webdevcave/simple-cache",
+  "description": "PSR Simple Cache Implementation",
+  "type": "library",
+  "keywords": ["php", "psr", "simple-cache", "cache"],
+  "require": {
+    "php": ">=8",
+    "psr/simple-cache": "^3.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Webdevcave\\SimpleCache\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit ./tests"
+  },
+  "scripts-descriptions": {
+    "test": "Run unit tests"
+  }
+}
