@@ -24,8 +24,9 @@ sources repeatedly.
 
 ```bash
 composer require webdevcave/simple-cache-php
-Alternatively, you can clone the repository or download the source files directly and include them in your project.
 ```
+
+Alternatively, you can clone the repository or download the source files directly and include them in your project.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, 
