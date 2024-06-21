@@ -35,7 +35,7 @@ class MemoryCache implements CacheInterface
 
             if (is_int($ttl)) {
                 if ($ttl < 0) {
-                    throw new InvalidArgumentException("TTL must be a positive integer");
+                    throw new InvalidArgumentException('TTL must be a positive integer');
                 }
 
                 $ttl = new DateInterval("PT{$ttl}S");
