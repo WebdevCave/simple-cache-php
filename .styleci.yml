@@ -1,6 +1,2 @@
-php:
-  version: 8.1
-  preset: recommended
-  disabled:
-    - align_double_arrow
-    - align_phpdoc
+version: 8.1
+preset: recommended
