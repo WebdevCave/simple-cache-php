@@ -7,5 +7,4 @@ use Psr\SimpleCache\InvalidArgumentException as InvalidArgumentExceptionInterfac
 
 class InvalidArgumentException extends Exception implements InvalidArgumentExceptionInterface
 {
-
 }

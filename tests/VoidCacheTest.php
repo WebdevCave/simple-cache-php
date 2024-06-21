@@ -2,8 +2,8 @@
 
 namespace Webdevcave\SimpleCache\Tests;
 
-use Webdevcave\SimpleCache\VoidCache;
 use PHPUnit\Framework\TestCase;
+use Webdevcave\SimpleCache\VoidCache;
 
 class VoidCacheTest extends TestCase
 {
